@@ -4,7 +4,7 @@ import Image from "../Components/Image";
 import Palette from "../Components/Palette";
 
 const ImageCreator = () => {
-  const [currentColor, setCurrentColor] = useState('blue');
+  const [currentColor, setCurrentColor] = useState('white');
   const [fillColors, setFillColors] = useState({});
 
   const navigate = useNavigate();

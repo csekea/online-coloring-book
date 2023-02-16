@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import './index.css';
+
 import Layout from "./Pages/Layout";
 import Home from "./Pages/Home";
 import MyImages from "./Pages/MyImages";
 import ImageEditor from "./Pages/ImageEditor";
 import ImageCreator from "./Pages/ImageCreator";
 import reportWebVitals from './reportWebVitals';
-
-import "./index.css";
+import './index.css';
 
 const router = createBrowserRouter([
   {

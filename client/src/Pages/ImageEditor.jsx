@@ -4,9 +4,8 @@ import Image from "../Components/Image";
 import Palette from "../Components/Palette";
 
 const ImageEditor = () => {
-  const [currentColor, setCurrentColor] = useState('blue');
+  const [currentColor, setCurrentColor] = useState('white');
   const [fillColors, setFillColors] = useState({});
-  const [imageData, setImageData] = useState(null);
   const [loading, setLoading] = useState(true);
 
   const navigate = useNavigate();
@@ -17,17 +16,12 @@ const ImageEditor = () => {
       then((res) => res.json())
       .then((data) => {
         console.log(data);
-        setImageData(data);
         setFillColors(data.colors)
         setLoading(false);
       });
-
   }, [])
 
-
-
   const onFill = (id) => {
-    console.log(id);
     let newFillColors = { ...fillColors, [id]: currentColor };
     setFillColors(newFillColors);
   }
