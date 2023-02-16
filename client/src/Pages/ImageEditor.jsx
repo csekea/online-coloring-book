@@ -15,7 +15,6 @@ const ImageEditor = () => {
     fetch(`http://127.0.0.1:8080/api/colorings/${id}`).
       then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setFillColors(data.colors)
         setLoading(false);
       });

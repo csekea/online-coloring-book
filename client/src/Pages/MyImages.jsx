@@ -10,7 +10,6 @@ const MyImages = () => {
     fetch("http://127.0.0.1:8080/api/colorings/").
       then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setImageData(data);
         setLoading(false);
       });

@@ -15,7 +15,6 @@ app.get("/api/colorings/", async (req, res) => {
   res.json(colorings);
 });
 
-
 app.post("/api/colorings/", async (req, res) => {
   const coloring = req.body;
   const date = `${new Date(Date.now()).toLocaleDateString()} ${new Date(Date.now()).toLocaleTimeString()}`;
@@ -34,7 +33,6 @@ app.patch("/api/colorings/:id", async (req, res) => {
   const id = req.params.id;
   const coloring = req.body;
   const newColoring = await ColoringModel.updateOne({ _id: id }, { colors: coloring });
-  console.log(id, newColoring);
   res.json(newColoring);
 });
 
@@ -43,7 +41,6 @@ app.delete("/api/colorings/:id", async (req, res) => {
   const coloring = await ColoringModel.deleteOne({ _id: id });
   res.json(coloring);
 });
-
 
 const main = async () => {
   await mongoose.connect(MONGO_URL);
