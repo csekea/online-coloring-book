@@ -10,7 +10,7 @@ const ImageTiles = ({ images, currentPage }) => {
           to={currentPage === "home" ? "/image-creator" : `/image-editor/${image._id}`}
           key={image.date}>
           <div className="centered">
-            <Image view="tile" fillColors={image.colors} />
+            <Image view="tile" fillColors={image.colors} onFill={() => null} />
             <p>{image.date}</p>
           </div>
         </Link>
