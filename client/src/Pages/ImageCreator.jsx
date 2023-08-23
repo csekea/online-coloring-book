@@ -10,7 +10,6 @@ const ImageCreator = () => {
   const navigate = useNavigate();
 
   const onFill = (id) => {
-    console.log(id);
     let newFillColors = { ...fillColors, [id]: currentColor };
     setFillColors(newFillColors);
   }
