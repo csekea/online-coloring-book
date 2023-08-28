@@ -70,7 +70,7 @@ Please see the core dependencies and installation steps below:
 ### Installation
 
 1. Clone the repository `git clone https://github.com/csekea/online-coloring-book.git`
-2. Install Visual Studio COde
+2. Install Visual Studio Code
 3. Install MongoDB
 4. (Optional: Install MongoDB Compass for database visualization)
 5. Open the project in Visual Studio Code: `File / Open folder... --> online-coloring-book`
