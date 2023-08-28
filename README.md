@@ -65,7 +65,7 @@ Please see the core dependencies and installation steps below:
 * [Node.js](https://nodejs.org/en/download)
 * [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)
 * Integrated development environment(IDE) - e.g. [Visual Studio Code](https://code.visualstudio.com/Download)
-* [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+* (Optional: [MongoDB Compass](https://www.mongodb.com/try/download/compass) )
 
 ### Installation
 
