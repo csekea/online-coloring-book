@@ -11,6 +11,7 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
+
 -->
 
 <details>
@@ -41,6 +42,7 @@
 The Online coloring book allows you to fill line drawings with color. You can create, save, modify and delete these colored pictures. This full-stack application uses React on the frontend, ExpressJS on the backend and MongoDB as a database.
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/csekea/online-coloring-book/blob/main/client/src/Assets/Images/screenshot.jpg)
+**Screenshot of the image creator page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
